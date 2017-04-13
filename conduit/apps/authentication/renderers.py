@@ -6,12 +6,23 @@ class UserJSONRenderer(JSONRenderer):
     charset = 'utf-8'
 
     def render(self, data, media_type=None, renderer_context=None):
+        # If the view throws an error (such as the user can't be authenticated
+        # or something similar), `data` will contain an `errors` key. We want
+        # the default JSONRenderer to handle rendering errors, so we need to
+        # check for this case.
 
-        # If we recieve a `token` key as part of the response, it will be a
+        errors = data.get('errors', None)
+
+        # If we receive a `token` key as part of the response, it will be a
         # byte object. tByte objects don' serializer well, so we need to
         # decode it before rendering the User object.
 
         token = data.get('token', None)
+
+        if errors is not None:
+            # As mentioned about, we will let the default JSONRenderer handle
+            # rendering errors.
+            return super(UserJSONRenderer, self).render(data)
 
         if token is not None and isinstance(token, bytes):
             # Also as mentioned above, we will decode `token` if it is of type
