@@ -14,7 +14,7 @@ class UserJSONRenderer(JSONRenderer):
         errors = data.get('errors', None)
 
         # If we receive a `token` key as part of the response, it will be a
-        # byte object. tByte objects don' serializer well, so we need to
+        # byte object. The Byte objects don't serializer well, so we need to
         # decode it before rendering the User object.
 
         token = data.get('token', None)

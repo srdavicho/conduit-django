@@ -12,7 +12,8 @@ from django.db import models
 from time import strftime
 #***********************************************
 
-#When customizing authentication in Django, one requirement is that you specify a custom Manager class with two methods: create_user and create_superuser
+#When customizing authentication in Django, one requirement is that you specify a custom Manager class with
+#/two methods: create_user and create_superuser
 
 class UserManager(BaseUserManager):
     """
@@ -137,11 +138,11 @@ class User(AbstractBaseUser, PermissionsMixin):
         Generates a JSON Web Token that stores this user's ID and has an expiry
         date set to 60 days into the future.
         """
-        dt = datetime.now() + timedelta(days=60)
+        #dt = datetime.now() + timedelta(days=60)
 
         token = jwt.encode({
-        	'id':self.pk,
-        	'exp':int(dt.strftime('%S'))
-        	}, settings.SECRET_KEY, algorithm='HS256')
+            'id': self.pk,
+            'exp': datetime.now()+ timedelta(days=60)
+        }, settings.SECRET_KEY, algorithm='HS256')
 
         return token.decode('utf-8')
