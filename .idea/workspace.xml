@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9954f8cb-20fc-4456-8804-22b0faf9f997" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduit/apps/authentication/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduit/apps/authentication/signals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduit/apps/core/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduit/apps/core/renderers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduit/apps/profiles/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduit/apps/profiles/renderers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduit/apps/profiles/serializers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduit/apps/profiles/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conduit/apps/profiles/views.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conduit/apps/authentication/models.py" afterPath="$PROJECT_DIR$/conduit/apps/authentication/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conduit/apps/authentication/renderers.py" afterPath="$PROJECT_DIR$/conduit/apps/authentication/renderers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conduit/apps/core/exceptions.py" afterPath="$PROJECT_DIR$/conduit/apps/core/exceptions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conduit/apps/profiles/models.py" afterPath="$PROJECT_DIR$/conduit/apps/profiles/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conduit/urls.py" afterPath="$PROJECT_DIR$/conduit/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conduit/apps/authentication/serializers.py" afterPath="$PROJECT_DIR$/conduit/apps/authentication/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conduit/apps/authentication/views.py" afterPath="$PROJECT_DIR$/conduit/apps/authentication/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,18 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2431">
-              <caret line="143" column="23" lean-forward="false" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="renderers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/renderers.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,13 +30,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conduit/apps/profiles/serializers.py">
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="402">
+              <caret line="165" column="23" lean-forward="false" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+              <folding>
+                <element signature="e#1#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conduit/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -163,8 +147,6 @@
       <list>
         <option value="$PROJECT_DIR$/conduit/apps/authentication/exceptions.py" />
         <option value="$PROJECT_DIR$/conduit/apps/authentication/urls.py" />
-        <option value="$PROJECT_DIR$/conduit/apps/authentication/serializers.py" />
-        <option value="$PROJECT_DIR$/conduit/apps/authentication/views.py" />
         <option value="$PROJECT_DIR$/conduit/settings.py" />
         <option value="$PROJECT_DIR$/conduit/apps/authentication/backends.py" />
         <option value="$PROJECT_DIR$/conduit/apps/core/models.py" />
@@ -182,6 +164,8 @@
         <option value="$PROJECT_DIR$/conduit/apps/profiles/views.py" />
         <option value="$PROJECT_DIR$/conduit/apps/profiles/urls.py" />
         <option value="$PROJECT_DIR$/conduit/urls.py" />
+        <option value="$PROJECT_DIR$/conduit/apps/authentication/views.py" />
+        <option value="$PROJECT_DIR$/conduit/apps/authentication/serializers.py" />
       </list>
     </option>
   </component>
@@ -471,6 +455,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1000" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3042553" sideWeight="0.8752053" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -479,7 +464,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33369803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33369803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3042553" sideWeight="0.124794744" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -505,7 +490,7 @@
         <state relative-caret-position="2312">
           <caret line="145" column="50" lean-forward="true" selection-start-line="145" selection-start-column="50" selection-end-line="145" selection-end-column="50" />
           <folding>
-            <element signature="e#98#108#0" expanded="true" />
+            <element signature="e#98#108#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -533,7 +518,7 @@
         <state relative-caret-position="306">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="e#1#34#0" expanded="false" />
+            <element signature="e#1#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -551,7 +536,7 @@
         <state relative-caret-position="102">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -597,7 +582,7 @@
         <state relative-caret-position="408">
           <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding>
-            <element signature="e#98#108#0" expanded="true" />
+            <element signature="e#98#108#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -625,7 +610,7 @@
         <state relative-caret-position="51">
           <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
-            <element signature="e#1#34#0" expanded="false" />
+            <element signature="e#1#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -643,7 +628,7 @@
         <state relative-caret-position="51">
           <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="46" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -689,7 +674,7 @@
         <state relative-caret-position="459">
           <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding>
-            <element signature="e#98#108#0" expanded="true" />
+            <element signature="e#98#108#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -699,7 +684,7 @@
         <state relative-caret-position="136">
           <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
-            <element signature="e#1#34#0" expanded="false" />
+            <element signature="e#1#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -717,7 +702,7 @@
         <state relative-caret-position="68">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -763,7 +748,7 @@
         <state relative-caret-position="102">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -773,16 +758,6 @@
         <state relative-caret-position="2397">
           <caret line="141" column="6" lean-forward="false" selection-start-line="141" selection-start-column="6" selection-end-line="141" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#34#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,7 +784,7 @@
         <state relative-caret-position="476">
           <caret line="91" column="27" lean-forward="false" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
           <folding>
-            <element signature="e#98#108#0" expanded="true" />
+            <element signature="e#98#108#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -819,7 +794,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="64" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#46#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -853,17 +828,7 @@
         <state relative-caret-position="170">
           <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" column="23" lean-forward="false" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -873,7 +838,7 @@
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -948,6 +913,26 @@
           <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="e#640#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="e#1#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conduit/apps/authentication/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="165" column="23" lean-forward="false" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
